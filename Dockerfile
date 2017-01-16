@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 
 RUN apt-get update      -y --ignore-missing               && \
-    apt-get install     -y software-properties-common apt-utils wget curl vim git unzip
+    apt-get install     -y software-properties-common apt-utils wget curl vim git unzip htop
 
 
 
